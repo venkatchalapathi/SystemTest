@@ -4,7 +4,7 @@
 
 ### Paging
 
-implementation 'androidx.paging:paging-runtime:2.1.0'
+      implementation 'androidx.paging:paging-runtime:2.1.0'
 
 ### Networking
 
