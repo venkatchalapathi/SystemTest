@@ -21,6 +21,13 @@ class FirstFragment : Fragment() {
     private lateinit var viewModel: RepoViewmodel
     private lateinit var newsListAdapter: RepoListAdapter
     lateinit var recycler_view: RecyclerView
+
+    override fun onActivityCreated(savedInstanceState: Bundle?) {
+        super.onActivityCreated(savedInstanceState)
+        if(savedInstanceState !=null){
+
+        }
+    }
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
